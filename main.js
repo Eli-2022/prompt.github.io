@@ -9,8 +9,7 @@ document.addEventListener('DOMContentLoaded', function() {
   
   
     button.addEventListener('click', function() {
-      content.innerHTML = `<h1> Copie el texto de abajo </h1> 
-      <p> Tiny cute isometric ${input2.value}  ${input.value}  soft lighting, neutral colors, high definition, 3d icon clay render, blender, ${input3.value}  background, physically based rendering, centered --v 4 </p>
+      content.innerHTML = `<p> Tiny cute isometric ${input2.value}  ${input.value}  soft lighting, neutral colors, high definition, 3d icon clay render, blender, ${input3.value}  background, physically based rendering, centered --v 4 </p>
       
       `  
     })
